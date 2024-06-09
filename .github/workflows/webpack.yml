@@ -1,4 +1,4 @@
-name: NodeJS with Webpack
+name: OS Aplet ❤️ Ekosystém pro NodeJS with Webpack
 
 on:
   push:
@@ -26,3 +26,4 @@ jobs:
       run: |
         npm install
         npx webpack
+        run: test 
